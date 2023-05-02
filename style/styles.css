@@ -1,0 +1,112 @@
+body {
+    margin: 10px 10px;
+    background-image: url(FondoCV.jpg);
+	}
+    img{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+        border-radius:20px;
+        width: 260px;
+        height: 300px;
+        margin: 50px;
+        padding: 2px;
+    
+    }
+    
+    .Texto1{
+        display: flex;
+        color: rgb(19, 18, 18);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        align-items: stretch;
+        padding: 10px;
+    }
+    
+    .TextoNegro{
+        background-color: #4fa573;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: inline;
+        font-size: 35px;
+        padding: 7px;
+        color: #ffffff;
+        justify-content: end;
+    }
+    .TextoBlanco{
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: x-large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    nav{border-radius: 0px; background: darkorange; flex: 80%;}
+    
+    footer{
+    height: 75px;
+    background: #12773c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 100%;
+    }
+    
+    nav ul li{
+    background-color: #343494;
+    width: 350px;
+    height: 50px;
+    margin: 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 5px;
+    flex: 100%;
+    align-items: center;
+
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        flex:100%;
+    }
+    
+    main{
+    height: 320px;
+    border-radius: 40px;
+    background-color: #4fa573;
+    margin: 70px 50px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    }
+    
+    .textoabajo{
+    height: 40px;
+    display: flex;
+    color: rgb(19, 18, 18);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    }
+    
+    .Texto2{
+    color: #0e0d0d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    font-size: x-large;
+    }
+    
+    .Texto3{
+        color: aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        justify-content:center;
+        font-size: 45px;
+        box-shadow: 0px 4px 4px rgb(70, 61, 61);
+        }
+    a {text-decoration: none;
+    }
+
+          
